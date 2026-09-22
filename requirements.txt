@@ -2,5 +2,10 @@ fastapi
 uvicorn
 pydantic
 sqlalchemy
-psycopg[binary]
-    
+psycopg[binary]<3.3
+alembic==1.16.5
+
+pwdlib==0.2.1
+argon2-cffi==23.1.0
+
+pytest==6.2.5
